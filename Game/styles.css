@@ -1,0 +1,28 @@
+@import url("https://fonts.googleapis.com/css2?family=Italianno&family=Nunito:wght@300;400;500;600&family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;1,300&family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,100;1,500&display=swap");
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 24px;
+}
+.main {
+  max-width: 1024px;
+  max-height: 50vh;
+  padding: 2rem;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  background: rgba(70, 206, 159, 0.5);
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(70, 206, 159, 0.25);
+}
+.game-container {
+}
+.score_board {
+  text-align: center;
+  border-left: 4px solid;
+  padding: 6rem;
+  width: 200px;
+  border-radius: 20px;
+  background-color: rgb(1, 83, 108);
+  color: rgb(159, 247, 8);
+}
